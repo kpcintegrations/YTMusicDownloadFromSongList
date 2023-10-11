@@ -18,6 +18,11 @@ A Script that will check Youtube Music for songs listed in songslist.txt and ret
 - Python3 must be installed with pip3. It is need to install ytmusicapi library and run the python script of this repo. If script does not detect pip3 it will download Python 3.12 from winget and install it.
 - You might have to remove previous versions of python from the User and System PATH Environment Variables, and or disable the app execution alias in Win 10/11 under Settings App>Apps>Advanced App Settings>App Execution Aliases for python and python3.
 - If you have newer versions of some libraries installed already it might throw errors. Please report those here under Issues Tab. I'll leave you to figure out how to get around that. Easiest way is to completely uninstall Python and reinstall before running this script.
+- Must have ffmpeg installed and added to PATH Environment Variable.
+# Upcoming Features Possibly
+- Ability to Download by Artist - Album Title in albumslist.txt
+- Auto Installation of ffmpeg
+- Parameters to .ps1 script to allow for custom actions.
 # Warnings
 I have no idea if this method is legal or not so use at your own risk.
 # Credits
